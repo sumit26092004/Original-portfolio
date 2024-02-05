@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--=============== BOXICONS ===============-->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <title> Portfolio </title>
+</head>
+
+<body>
+    <!--=============== HEADER ===============-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">Sumit</a>
+
+            <div class="nav__menu">
+                <ul class="nav__list">
+                    <li class="nav__item ">
+                        <a href="#home" class="nav__link">
+                            <i class='bx bx-home'></i>
+                        </a>
+                    </li>
+
+                    <li class="nav__item ">
+                        <a href="#about" class="nav__link">
+                            <i class='bx bx-user'></i>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <i class='bx bx-book'></i>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#work" class="nav__link">
+                            <i class='bx bx-briefcase-alt-2'></i>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">
+                            <i class='bx bx-message-square-dots'></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <!--=============== theme change button ===============-->
+            <i class='bx bx-moon change-theme change-theme-button' id="theme-button"></i>
+
+        </nav>
+    </header>
+
+    <!--=============== MAIN ===============-->
+    <main class="main">
+        <!--=============== HOME ===============-->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__data">
+                    <span class="home__greeting">Hello, I'm</span>
+                    <h1 class="home__name">Sumit </h1>
+                    <h3 class="home__education">Frontend Developer<br>
+                    DSA in C++</h3>
+
+                    <div class="home__button">
+                        <a download="" href="https://drive.google.com/file/d/1gHF1nlQ0Ej-MvWEeRvAQLmIbc3t_oc9A/view?usp=sharing" target="_blank" class="button button--ghost">
+                            View CV
+                        </a>
+
+                        <a href="#about" class="button">About</a>
+
+                        <a href="https://leetcode.com/sumitrai2609/" target="_blank" class="button button--ghost">Coding Profile</a>
+                    </div>
+                </div>
+
+                <div class="home__handle">
+                    <img src="assets/img/profile-pic (1).png" alt="" class="home__img">
+                </div>
+
+                <div class="home__social">
+                    <a href="https://www.linkedin.com/in/sumit-rai-895837226/" target="_blank" class="home__social-link">
+                        <i class='bx bxl-linkedin'></i>
+                    </a>
+                    <a href="https://github.com/sumit26092004" target="_blank" class="home__social-link">
+                        <i class='bx bxl-github'></i>
+                    </a>
+                </div>
+
+                <a href="#about" class="home__scroll">
+                    <i class='bx bx-mouse home__scroll-icon'></i>
+                    <span class="home__scroll-name">Scroll Down</span>
+                </a>
+            </div>
+        </section>
+
+        <!--=============== ABOUT ===============-->
+        <section class="about section" id="about">
+            <span class="section__subtitle">My Intro</span>
+            <h2 class="section__title">About Me</h2>
+
+            <div class="about__container container grid">
+                <img src="/assets/img/profile-pic.png" alt="" class="about__img" width="100%" height="100%">
+
+                <div class="about__data">
+                    <div class="about__info">
+                        <div class="about__box">
+                            <i class='bx bx-award about__icon'></i>
+                            <h3 class="about__title">Experience</h3>
+                            <span class="about__subtitle">0 years</span>
+                        </div>
+                        <div class="about__box">
+                            <i class='bx bx-briefcase-alt about__icon'></i>
+                            <h3 class="about__title">Completed</h3>
+                            <span class="about__subtitle">6+ Projects</span>
+                        </div>
+                        <div class="about__box">
+                            <i class='bx bx-support about__icon'></i>
+                            <h3 class="about__title">Support</h3>
+                            <span class="about__subtitle">Online 24/7</span>
+                        </div>
+                    </div>
+
+                    <p class="about__description">
+                        I'm a passionate frontend developer with a strong foundation in Data Structures and Algorithms using C++. I specialize in creating dynamic and user-friendly interfaces that seamlessly blend form and function.
+                    </p>
+
+                    <a href="#contact" class="button about__button-contact">Contact Me</a>
+                </div>
+            </div>
+        </section>
+
+        <!--=============== SKILLS ===============-->
+        <section class="skills section" id="skills">
+            <h2 class="section__title">My Experience</h2>
+
+            <div class="skills__container container grid">
+                <div class="skills__content">
+                    <h3 class="skills__title">Frontend Development</h3>
+
+                    <div class="skills__box">
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">HTML</h3>
+                                    <span class="skills__level">Advanced</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">CSS</h3>
+                                    <span class="skills__level">Advanced</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Javascript</h3>
+                                    <span class="skills__level">Advanced</span>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Bootstrap</h3>
+                                    <span class="skills__level">Intermediate</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Git</h3>
+                                    <span class="skills__level">Advanced</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">React</h3>
+                                    <span class="skills__level">Advanced</span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills__content">
+                    <h3 class="skills__title">Backend Development</h3>
+
+                    <div class="skills__box">
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Node JS</h3>
+                                    <span class="skills__level">Advanced</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Mongodb</h3>
+                                    <span class="skills__level">Intermediate</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">MySQL</h3>
+                                    <span class="skills__level">Basic</span>
+                                </div>
+                            </div>
+
+                        </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+
+
+        <!--=============== WORK ===============-->
+        <section class="work section" id="work">
+            <span class="section__subtitle">My Portfolio</span>
+            <h2 class="section__title">Recent Works</h2>
+
+            <div class="work__filters">
+                <span class="work__item active-work" data-filter='all'>All</span>
+            </div>
+
+            <div class="work__container container grid">
+                <div class="work__card mix web">
+                    <img src="assets/img/sushi.png" alt="" class="work__img">
+
+                    <h3 class="work__title">Japanese Sushi Restaurant</h3>
+
+                    <a href="https://sumit26092004.github.io/Sushi/" target="_blank" class="work__button">
+                        Visit <i class='bx bx-right-arrow work__icon'></i>
+                    </a>
+                </div>
+
+                <div class="work__card mix movil">
+                    <img src="assets/img/netflix.png" alt="" class="work__img">
+
+                    <h3 class="work__title">Netflix Clone</h3>
+
+                    <a href="https://sumit26092004.github.io/Netflix-Clone/" target="_blank" class="work__button">
+                        Visit <i class='bx bx-right-arrow work__icon'></i>
+                    </a>
+                </div>
+
+                <div class="work__card mix design">
+                    <img src="assets/img/E-comerce.png" alt="" class="work__img">
+
+                    <h3 class="work__title">E-Commerce Website</h3>
+
+                    <a href="https://sumit26092004.github.io/NIKE/" target="_blank" class="work__button">
+                        Visit <i class='bx bx-right-arrow work__icon'></i>
+                    </a>
+                </div>
+
+                <div class="work__card mix web">
+                    <img src="assets/img/car.png" alt="" class="work__img">
+
+                    <h3 class="work__title">Car Game</h3>
+
+                    <a href="https://sumit26092004.github.io/Car-Game/" target="_blank" class="work__button">
+                        Play <i class='bx bx-right-arrow work__icon'></i>
+                    </a>
+                </div>
+
+                <div class="work__card mix web">
+                    <img src="assets/img/rock.jpg" alt="" class="work__img">
+
+                    <h3 class="work__title">Rock Paper Scissor Game</h3>
+
+                    <a href="https://sumit26092004.github.io/Rock-Paper-Scissor-/" target="_blank" class="work__button">
+                        Play <i class='bx bx-right-arrow work__icon'></i>
+                    </a>
+                </div>
+
+            </div>
+        </section>
+
+    
+
+        <!--=============== CONTACT ===============-->
+        <section class="contact section" id="contact">
+            <sapn class="section__subtitle">Get in touch</sapn>
+            <h3 class="section__title">Contact Me</h3>
+
+            <div class="contact__container container grid">
+                <div class="contact__content">
+                    <h3 class="contact__title contact__title-info">Social</h3>
+
+                    <div class="contact__info">
+                        <div class="contact__card">
+                            <i class='bx bx-mail-send contact__card-icon'></i>
+                            <h3 class="contact__card-title">Email</h3>
+                            <span class="contact__card-data">sumitrai41716@gmail.com</span>
+
+                            <a href="mailto:sumitrai41716@gmail.com" target="_blank" class="contact__button">
+                                Write Me <i class='bx bx-right-arrow contact__button-icon'></i>
+                            </a>
+                        </div>
+
+                        <div class="contact__card">
+                            <i class='bx bxl-twitter contact__card-icon'></i>
+                            <h3 class="contact__card-title">Twitter</h3>
+                            <span class="contact__card-data">@SumitRa77076052</span>
+
+                            <a href="https://twitter.com/SumitRa77076052" target="_blank" class="contact__button">
+                                Write Me <i class='bx bx-right-arrow contact__button-icon'></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact__content">
+                    <h3 class="contact__title contact__title-form">Write Me your Message</h3>
+
+                    <form action="" class="contact__form">
+                        <div class="contact__form-div">
+                            <label for="" class="contact__form-tag">Name</label>
+                            <input type="text" placeholder="Enter name" class="contact__form-input">
+                        </div>
+
+                        <div class="contact__form-div">
+                            <label for="" class="contact__form-tag">Mail</label>
+                            <input type="text" placeholder="Enter email" class="contact__form-input">
+                        </div>
+
+                        <div class="contact__form-div contact__form-area">
+                            <label for="" class="contact__form-tag">Message</label>
+                            <textarea name="" id="" cols="30" rows="10" placeholder="Write your Message"
+                                class="contact__form-input "></textarea>
+                        </div>
+
+
+                        <button class="button">
+                            <a href="mailto:sumitrai41716@gmail.com" target="_blank"  class="button about__button-contact"> Send Message</a>
+                        </button>
+                    </form>
+
+                </div>
+
+        </section>
+    </main>
+
+    <!--=============== FOOTER ===============-->
+    <footer class="footer">
+        <div class="footer__container container">
+            <h1 class="footer__title">Sumit Rai</h1>
+
+            <ul class="footer__list">
+
+                <li class="footer__item">
+                    <a href="#" class="footer__link">Home</a>
+                </li>
+                <li class="footer__item">
+                    <a href="#about" class="footer__link">About</a>
+                </li>
+                <li class="footer__item">
+                    <a href="#skills" class="footer__link">Skills</a>
+                </li>
+                <li class="footer__item">
+                    <a href="#work" class="footer__link">Work</a>
+                </li>
+                <li class="footer__item">
+                    <a href="#contact" class="footer__link">Contact</a>
+                </li>
+            </ul>
+
+            <ul class="footer__social">
+                <li class="footer__social-item">
+                    <a href="https://twitter.com/SumitRa77076052" target="_blank" class="footer__social-link">
+                        <i class='bx bxl-twitter footer__social-icon'></i>
+                    </a>
+                </li>
+                <li class="footer__social-item">
+                    <a href="https://www.linkedin.com/in/sumit-rai-895837226/" target="_blank" class="footer__social-link">
+                        <i class='bx bxl-linkedin footer__social-icon'></i>
+                    </a>
+                </li>
+            </ul>
+
+            <span class="footer__copy">
+               
+            </span>
+        </div>
+    </footer>
+
+    <!--=============== SCROLLREVEAL ===============-->
+
+    <!-- <script src="assets/js/scrollreveal.min.js"></script> -->
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!--=============== MIXITUP FILTER ===============-->
+    <script src="assets/js/mixitup.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
